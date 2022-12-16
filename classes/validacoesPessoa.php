@@ -1,5 +1,8 @@
 <?php
-class PessoaValidacao {
+$path = "interfaces/validacoesInterface.php";	
+require_once($path);
+
+class PessoaValidacao implements I_ValidacoesPessoa{
 
   public function __construct(Validacoes $validacoes, Pessoa $pessoa){
     $this->validacoes  = $validacoes;

@@ -1,10 +1,6 @@
 <?php
-interface I_Validacoes {
-  public function isNomeVazio(String $nome): bool;
-  public function isIdadeInvalida(int $idade): bool;
-  public function isEnderecoVazio(String $endereco): bool;
-  public function isTelefoneVazio(String $telefone): bool;
- }
+$path = "interfaces/validacoesInterface.php";	
+require_once($path);
 
 class Validacoes implements I_Validacoes {
   public function isNomeVazio(String $nome): bool{

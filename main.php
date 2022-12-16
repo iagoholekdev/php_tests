@@ -1,8 +1,8 @@
 <?php
 
-require_once('validacoes.php');
-require_once('pessoa.php');
-require_once('validacoesPessoa.php');
+require_once('classes/validacoes.php');
+require_once('classes/pessoa.php');
+require_once('classes/validacoesPessoa.php');
 
 $pessoa = new Pessoa("", 24, "", "32250610");
 $validacoes = new Validacoes();
