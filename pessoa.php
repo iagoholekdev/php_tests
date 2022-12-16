@@ -16,15 +16,15 @@ class Pessoa implements I_Pessoa {
   }
 
   public function getNome(): String {
-    return $this->$nome;
+    return $this->nome;
   }
   public function getIdade(): int {
-    return $this->$idade;
+    return $this->idade;
   }
    public function getEndereco(): String {
-    return $this->$endereco;
+    return $this->endereco;
   }
    public function getTelefone(): String {
-    return $this->$telefone;
+    return $this->telefone;
   }
 }
